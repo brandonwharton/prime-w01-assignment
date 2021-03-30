@@ -4,7 +4,7 @@
 ls
 
 # 2 - What is the command for changing directories?
-cd [directory]
+cd [desired directory] // The brackets here, and below, aren't used in the terminal, only as a placeholder for answering these questions.
 
 # 3 - What is the command for going back a folder (to a parent directory)?
 cd ..
@@ -28,4 +28,4 @@ To see which files, if any, have been modified since the last time they were com
 Adds all files and directories from the current directory to git.
 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
-git push -u origin master 
+git push -u origin master
