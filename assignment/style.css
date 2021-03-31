@@ -1,10 +1,65 @@
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* Above code was found on CSS-Tricks at https://css-tricks.com/snippets/css/clear-fix/ */
+
+body {
+  margin: 0;
+}
+
+.index-header {
+    background:#999;
+    margin:0;
+}
+
+.index-header h1 {
+    text-align: center;
+}
+.main-page {
+    background:#39CCCC;
+    float:left;
+    width:70%;
+}
+
+.main-page li {
+    font-family: Verdana;
+}
+
+.image-main {
+    float:right;
+    width:30%;
+    height:auto;
+    border: 4px solid #111;
+}
+
+.index-footer {
+    background:#DDD;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.index-footer p {
+    color:#9400D3;
+    font-style: italic;
+}
+
+
 /* Give your page a fun background color */
 
 /* Make the header and footer a different color from the background */
 
-/* Align the h1 containing your name in the center of the header*/
 
-/* Make your p tag a different color and italic */
 
 /* Put a border around your image */
 
