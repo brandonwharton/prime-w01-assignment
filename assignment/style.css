@@ -1,6 +1,6 @@
 /* The tags marked with 'Tricks' were found on a CSS-TRICKS sticky footer
    article found at https://css-tricks.com/couple-takes-sticky-footer/. I am
-   endeavoring to understand what they all do. */
+   endeavoring to understand exactly what they all do. */
 
 html, body {
 /*Tricks*/
@@ -17,18 +17,21 @@ body {
 
 .index-header {
 /* Make the header and footer a different color from the background */
+
   background:#999;
 }
 
 .index-header h1 {
 /* Align the h1 containing your name in the center of the header*/
+
   text-align: center;
   margin: 0;
-  padding:15px 0;
+  padding:20px 0;
 }
 
 .main-page {
 /* Give your page a fun background color */
+
   background:#39CCCC;
 /*Tricks*/
   flex: 1 0 auto;
@@ -36,6 +39,7 @@ body {
 
 .main-page li {
 /* Change the font-family of your list */
+
   font-family: Verdana;
   font-size: 17px;
 }
@@ -44,14 +48,10 @@ body {
   width: 25%;
   height: auto;
 /* Put a border around your image */
-  border: 5px solid #111;
+
+  border: 6px solid #111;
 }
 
-/* .image-main {
-  width:400px;
-  height:auto;
-  border: 5px solid #111;
-} */
 .index-footer {
   background:#DDD;
 /*Tricks*/
@@ -60,7 +60,8 @@ body {
 
 .index-footer p {
 /* Make your p tag a different color and italic */
-  padding-left: 20px;
+
   color:#9400D3;
   font-style: italic;
+  padding-left: 30px;
 }
