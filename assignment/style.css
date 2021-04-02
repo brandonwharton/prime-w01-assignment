@@ -52,6 +52,19 @@ body {
   border: 6px solid #111;
 }
 
+#intro {
+  margin-left:65px;
+}
+
+#hiding {
+  color:#39CCCC;
+}
+
+li#hiding:hover {
+  background:black;
+  display:inline;
+}
+
 .index-footer {
   background:#DDD;
 /*Tricks*/
