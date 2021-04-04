@@ -1,6 +1,7 @@
-/* The tags marked with 'Tricks' were found on a CSS-TRICKS sticky footer
-   article found at https://css-tricks.com/couple-takes-sticky-footer/. I am
-   endeavoring to understand exactly what they all do. */
+
+/* The code underneath the tags marked with 'Tricks' were found on a CSS-TRICKS
+   sticky footer article found at https://css-tricks.com/couple-takes-sticky-footer/.
+   I am endeavoring to understand exactly what they all do. */
 
 html, body {
 /*Tricks*/
@@ -26,7 +27,17 @@ body {
 
   text-align: center;
   margin: 0;
-  padding:20px 0;
+  padding-top:20px;
+}
+
+.main-nav {
+    float:right;
+}
+
+.main-nav ul {
+  list-style:none;
+  padding-right:35px;
+  margin:0;
 }
 
 .main-page {
@@ -63,6 +74,21 @@ body {
 li#hiding:hover {
   background:black;
   display:inline;
+}
+
+.main-text-alt {
+    padding: 50px 15px;
+    float:left;
+    display:inline;
+  }
+
+#acro-img-alt {
+  float:right;
+  max-width:100%;
+  width:25%;
+  height:auto;
+/* Put a border around your image */
+  border: 5px solid #111;
 }
 
 .index-footer {

@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- Change the <title> from "Page Title" to "Hello World" -->
     <title>
-      Hello World
+      Hello World 2
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="altstyle.css" />
+    <script type="text/javascript" src="helloWorld.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
 
@@ -17,21 +18,35 @@
       <h1>
         Brandon Wharton
       </h1>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="altindex.html">Alternate</a></li>
+        </ul>
+      </nav>
     </header>
-    <main class='main-page clearfix'>
-
-<!-- Include an image -->
-      <div class="clearfix">
-        <img id="acro-img" src="acro.jpeg" />
-      </div>
-
+    <main class="main-page">
 <!-- Create an unordered list with 3 list items of fun facts about you -->
-      <ul>
-        <li>I have two miniature dachshunds that rule our entire house.</li>
-        <li>Once upon a time, I did acrobatics and circus performances.</li>
-        <li>While my taste in music is pretty diverse, my favorite genre
-            is unquestionably bluegrass.</li>
-      </ul>
+
+      <section class="main-text-alt">
+        <ul>
+          <li>I have two miniature dachshunds that rule our entire house.</li>
+          <li>Once upon a time, I did acrobatics and circus performances.</li>
+          <li>While my taste in music is pretty diverse, my favorite genre
+              is unquestionably bluegrass.</li>
+          <li id="hiding">Bonus fact! My favorite author currently is Brandon
+              Sanderson. If you're up for a time commitment, check out the
+              Stormlight Archive. It's worth it.</li>
+        </ul>
+      </section>
+<!-- Include an image -->
+
+      <section>
+        <div>
+          <img id="acro-img-alt" src="acro.jpeg" />
+        </div>
+      </section>
     </main>
 
 <!-- Create a footer -->
@@ -43,6 +58,6 @@
            while they are small. A journey of a thousand miles must begin with
            a single step." -Lao Tzu
       </p>
-    </footer >
+    </footer>
 </body>
 </html>
